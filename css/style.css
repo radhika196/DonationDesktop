@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header, main, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 12vh;
+    color:#354463 ;
+    opacity: 1;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    height: 40vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-gap: 5%; */
+}
+
+#div1{
+    justify-content: left;
+    color:#354463 ;
+    
+}
+
+#div-contact{
+    justify-content: center;
+    color:#354463 ;
+    width: 30%;
+    
+}
+
+#div-links{
+    justify-content: left;
+    color:#354463 ;
+    width: 30%;
+    
+}
+
+#div-follow{
+    justify-content: left;
+    color:#354463 ;
+    width: 30%;
+    
+    
+}
+
+#div-last{
+    justify-content: left;
+    color:#354463 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold ;
+    font-style: italic;
+    
+    
+}
+
+h6{
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#354463 ;
+    
+}
+
+.footer-center-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px
+    
+}
+
+/* .bg-image{
+    background-image:url('img/annie-spratt-427340-unsplash');
+} */
+
+a{
+    color: #354463;
+    text-decoration: none;
+}
+
+
+
+.flname{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.cityClass{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container{
+    position: relative;
+    right: 0;
+    margin: 20px;
+    max-width: 500px;
+    padding: 16px;
+    justify-content: center;
+    color: white;
+    background-color: #354463
+
+}
+
+
+
+input[type=text], input[type=email], input[type=number], select {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #3CBC8D;
+    background-color: #354463;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: #3CBC8D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    /* background-color: #1f1f1f; */
+    padding: 20px;
+}
+
+label {
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, select:focus {
+    background-color: #3CBC8D;
+    /* color: black; */
+}
+
+.btn{
+    background-color: #C1F7D5;
+    color: #354463;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+    justify-items: left;
+}
+
+.sideDiv{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    line-height: 120%;
+}
